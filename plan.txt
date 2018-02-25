@@ -1,0 +1,4 @@
+1. This file is created from branch_1
+2. Going to commit it
+3. Then check in Git hub if it is being reflected
+4. If not check how it can be pushed and then merged
