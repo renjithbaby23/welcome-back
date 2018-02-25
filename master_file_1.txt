@@ -1,0 +1,5 @@
+created in master.
+At this time branch1 was two commits ahead
+Going to commit it and then inspect the graph
+$git log --all --decorate --oneline --graph
+
