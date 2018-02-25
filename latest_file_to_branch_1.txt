@@ -1,0 +1,38 @@
+This is the latest file to branch_1
+The last thing was merge with master
+
+Before merge: git log --all --decorate --oneline --graph
+ 
+1. check * 5258713 (HEAD -> master) Add new text file directly in master
+| * 2e67c39 (origin/branch_1, branch_1) Add plan
+|/  
+* c68042e Added a note book and .gitignore file
+* b25a68f (origin/master, origin/HEAD) Added a py file
+*   a089bf0 Merge pull request #1 from renjithbaby23/readme-edit1
+|\  
+| * 1aef62d Updated readme
+| * 0c3f4c4 Update README.md
+|/  
+* a3232d8 Initial commit
+
+
+After merge: git log --all --decorate --oneline --graph
+
+*   bd986e1 (master) Merge branch 'branch_1'
+|\  
+| * 2e67c39 (HEAD -> branch_1, origin/branch_1) Add plan
+* | 5258713 Add new text file directly in master
+|/  
+* c68042e Added a note book and .gitignore file
+* b25a68f (origin/master, origin/HEAD) Added a py file
+*   a089bf0 Merge pull request #1 from renjithbaby23/readme-edit1
+|\  
+| * 1aef62d Updated readme
+| * 0c3f4c4 Update README.md
+|/  
+* a3232d8 Initial commit
+
+Next step is check the oneline log graph, 
+
+1. After Commit
+2. After merge
